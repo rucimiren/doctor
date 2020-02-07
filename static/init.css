@@ -1,0 +1,66 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+table,
+div,
+input,
+button,
+header,
+nav,
+footer,
+aside {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  /* text-decoration: underline; */
+}
+
+.zuo {
+  float: left;
+}
+
+.you {
+  float: right;
+}
+
+.clear {
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+  opacity: 0;
+  clear: both;
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+input,
+button {
+  outline: none;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

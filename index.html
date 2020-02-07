@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2,
+  minimum-scale=1,user-scalable=no">
+  <meta name="full-screen" content="yes">
+
+  <script type="text/javascript" src='http://api.map.baidu.com/api?v=2.0&ak=xN7nGmOHkMnAogTymKagYosDopWr5Ogq'></script>
+  <script src="./static/flexible.js"></script>
+
+  <title>美中嘉和</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+  <script>
+    // 用于适配ipad以及ipad pro
+    ;
+    /(iPhone|iPad|iPhone OS|Phone|iPod|iOS)/i.test(navigator.userAgent) &&
+      ((head = document.getElementsByTagName('head')),
+        (viewport = document.createElement('meta')),
+        (viewport.name = 'viewport'),
+        (viewport.content =
+          ' width=480, user-scalable=no'),
+        head.length > 0 && head[head.length - 1].appendChild(viewport))
+
+  </script>
+</body>
+
+</html>
